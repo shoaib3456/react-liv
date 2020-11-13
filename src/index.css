@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.value-holder{
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.cal-body{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
