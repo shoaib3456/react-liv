@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}body{height:100vh;display:flex;justify-content:center;align-items:center}.btn{padding:10px;font-size:1.2rem;color:#fff;background-color:orange;border:1px solid #000;cursor:pointer;font-size:2rem;outline:none}.btn:hover{background-color:#ffb62e}.value-holder{font-size:1.2rem;padding:10px;background-color:#3d3d3d;color:#fff;font-size:2rem}.container{display:flex;flex-direction:column;width:400px}.Clear{grid-column:1/5}.cal-body{display:grid;grid-template-columns:auto auto auto auto}
+/*# sourceMappingURL=main.6c544a3c.chunk.css.map */
