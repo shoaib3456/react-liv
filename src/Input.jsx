@@ -2,12 +2,9 @@ import React from 'react'
 import './index.css'
 
 
-
-
-const Input  = ()=>{
-
+const Input  = (props)=>{
     return(
-    <input type="text" className="value-holder"/>
+    <input type="text" value={props.value} className="value-holder" />
     )
 }
 

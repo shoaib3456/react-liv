@@ -13,17 +13,31 @@ body{
 .btn{
   padding: 10px;
   font-size: 1.2rem;
+  color: white;
+  background-color: orange;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 2rem;
+  outline: none;
+}
+.btn:hover{
+  background-color: rgb(255, 182, 46);
 }
 .value-holder{
   font-size: 1.2rem;
   padding: 10px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-size:2rem;
 }
 .container{
   display: flex;
   flex-direction: column;
   width: 400px;
 }
-
+.Clear{
+  grid-column: 1 / 5;
+}
 .cal-body{
   display: grid;
   grid-template-columns: auto auto auto auto;
